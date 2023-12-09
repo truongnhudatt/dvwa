@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.user-info-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.user-info-table th, .user-info-table td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.user-info-table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+.edit-email-container {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#edit_email_button {
+    display: inline-block;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+#edit_email_form {
+    margin-top: 10px;
+}
+
+#cancel_edit_email {
+    margin-left: 10px;
+}
+
+#new_email{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#btn-submit{
+    margin-top: 20px;
+}

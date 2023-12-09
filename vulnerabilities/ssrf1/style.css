@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền trắng với độ trong suốt 90% */
+    position: relative; /* Đặt vị trí của container là relative */
+    z-index: 1; /* Đặt chỉ số z để đè lên phần nền */
+}
+
+.background {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0; /* Đặt chỉ số z của phần nền thấp hơn để nó nằm sau container */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.user-info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+}
+/* Search bar */
+/* Trong tệp style.css */
+/* Trong tệp style.css */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Đẩy phần search-bar sang bên phải */
+}
+
+.search-bar input[type="text"] {
+    margin-top: 30px;
+    width: 600px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-bar input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.search-bar button {
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Product */
+/* Trong tệp style.css */
+/* Trong tệp style.css */
+.product-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Bắt đầu từ trái sang phải */
+    gap: 30px; /* Khoảng cách giữa các sản phẩm */
+}
+
+.product {
+    width: calc(25% - 30px); /* 25% để hiển thị 4 sản phẩm trên 1 hàng */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-details h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.star {
+    color: #FFD700;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+/* End product */
+spacer {
+    height: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Đặt chỉ số z để đè lên phần nền */
+}
+/* Style Product */
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.star {
+    color: #FFD700;
+}
+
+.quantity-check {
+    margin: 20px 0;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}

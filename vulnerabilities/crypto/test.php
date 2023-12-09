@@ -1,0 +1,8 @@
+<?php
+include('encrypt_helper.php');
+$data = array(
+    "d" => "DRPYS5TqwuADTtUJ5mWiwCPS2NKAJ6eaUB+GYAvAr4k+W5/Cjm3jKo7YLeZpDh++pIk1PCqARYF9G5x+Psj0k0WIs/q7ldur3rOAHNU/OZQY/oZhvN7nYntFHXkJyNPcgQzwWRqvjf7BlcuC1v+adrvEVruGoQlvwLfALUL4fXKPtI6vL2yb7Ly/fX8tbaFgd6aMibeI+5HHvkQpuKg7LoQcjpcZpPLfAnY/9L4iSw4QnA0ButNbQku9+d5M0ZWKLKvyrmZVqzP/d/g181fxeRgYBdaZ8bJPD/lf2+RMAwJ8V1sTiG7M1WgYeFdBZouMJndoh9ZNWiV80tQGemC7F+1s4dmoeYhUmo+WfmosO5V8QClp/FnGCJ4npK+b0ckee0qbevVXLYNiGfOs6xvD0vW7LLebYXaVLV7oqFauDDstc58GgVPkgwZez9OsvQY=",
+    "k" =>"TGFT1gI/MbbiX5v4r3spMEEjNd3eaQQxDy/6LHxCYIPfVVRca0oNvK/rQNhItg6bq+3dn4yeyd8mmFq/P0cfi1FXPLE2A92u5RZBHLPYMXBMKACttF2F1oNzZjJmKrdPJ1fPusfzFgiqgMkRnqWnlmVGSAHOP3TGQW79J6RyiNcfUZNXN5+xH0Q9p4F6l9Q6U9o9/0OUrO2RexhuCTt1ePw5b41040XU6FyTQjNUh8mofslVy9DPfviLWai1n7GGxaDLWZLSgEPANW1I9VUv59UNAaBBqGUao7Zg/mtZF+hdH09Z+irWUNAdKrjYm+n8kPV7cQ2G/1MfGAsvvE0iHg=="
+);
+echo decrypt($data,$serverPriKey)
+?>
